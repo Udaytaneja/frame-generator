@@ -274,3 +274,47 @@ The application does load MediaPipe runtime/model assets from external URLs when
 
 🏗️ System Architecture:
 
+
+🔒 Security & Infrastructure
+
+The application intentionally keeps the architecture lightweight.
+
+There is currently no:
+
+Backend server
+Database
+Authentication layer
+User account system
+Image storage service
+API key requirement
+
+This makes the application suitable for a simple event-facing utility where the primary operation is client-side image composition.
+🧭 Future Improvements
+
+Potential future extensions include:
+
+Additional HH Goa frame themes
+More advanced face positioning
+Optional user-selected crop positioning
+Additional social sharing integrations
+Offline/self-hosted MediaPipe model assets
+Progressive Web App support
+Event-specific frame campaigns
+Analytics with privacy-preserving instrumentation
+Direct device camera capture
+More export formats
+🏆 Project Highlights
+✓ Browser-based face detection
+✓ Face-aware image composition
+✓ Client-side image processing
+✓ Real 1080 × 1080 PNG generation
+✓ Canvas-based frame renderer
+✓ WebGL construction shader
+✓ Responsive editorial UI
+✓ Mobile Web Share support
+✓ Desktop X intent integration
+✓ No backend required
+✓ No database required
+✓ Static deployment
+
+
