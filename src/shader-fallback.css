@@ -1,0 +1,10 @@
+@media (prefers-reduced-motion: reduce) {
+  .construction-shader {
+    background-color: #006b3c;
+    background-image: linear-gradient(90deg, transparent 10%, #fed400 10% 12%, transparent 12% 88%, #fed400 88% 90%, transparent 90%), linear-gradient(transparent 10%, #fed400 10% 12%, transparent 12% 88%, #fed400 88% 90%, transparent 90%), repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0 1px, transparent 1px 4px);
+  }
+}
+.construction-shader[data-fallback="true"] {
+  background-color: #006b3c;
+  background-image: linear-gradient(90deg, transparent 10%, #fed400 10% 12%, transparent 12% 88%, #fed400 88% 90%, transparent 90%), linear-gradient(transparent 10%, #fed400 10% 12%, transparent 12% 88%, #fed400 88% 90%, transparent 90%), repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0 1px, transparent 1px 4px);
+}
