@@ -38,3 +38,59 @@ Generate Frame
 1080 × 1080 PNG
      ↓
 Download / Share
+
+🎯 Problem
+
+Community events and hackathons often provide branded frames that require users to:
+
+Download an image template
+Open an external image editor
+Manually crop their photograph
+Position the photograph
+Adjust the composition
+Export the final image
+Upload it again to social media
+
+This creates unnecessary friction.
+
+For an event such as HH Goa 2026, the goal is to make identity creation instant, branded, and shareable.
+
+💡 Solution
+
+HH Goa Frame Generator turns the entire process into a simple guided workflow.
+
+User journey
+Upload a portrait.
+The application detects whether a face is present.
+The detected face is used to improve the crop position.
+The user previews the composition.
+The application generates the final frame locally.
+A production-ready 1080 × 1080 PNG is created.
+The user can download the image.
+Users can open X with a pre-filled HH Goa caption.
+Supported mobile browsers can share the generated image through the native sharing system.
+⭐ USP — What Makes It Different?
+1. Face-Aware Composition
+
+The application doesn't blindly place the uploaded image inside a square.
+
+It first performs browser-side face detection using MediaPipe BlazeFace.
+
+The detected face is then used to influence the square cover crop.
+
+This helps prevent situations where:
+Normal crop:
+┌─────────────┐
+│             │
+│       👤    │  ← face pushed out
+│             │
+└─────────────┘
+
+Face-aware crop:
+┌─────────────┐
+│    👤       │
+│             │
+│             │
+└─────────────┘
+
+The system preserves the original image proportions and avoids artificial stretching
